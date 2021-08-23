@@ -21,7 +21,7 @@ int main()
         printf("thread error\n");
         exit (1);
     }
-    status = pthread_join(thread,  );
+    //status = pthread_join(thread,  );
     if (status != 0)
     {
         printf("thread_join error\n");

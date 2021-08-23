@@ -9,5 +9,10 @@ typedef struct s_arg
     int time_to_die;
     int time_to_eat;
     int time_to_sleep;
-}              arg;
+}              t_arg;
+
+int	ft_isdigit(int arg);
+int is_number(char *str);
+int	check_arguments(char **argv);
+size_t	ft_strlen(const char *s);
 #endif
